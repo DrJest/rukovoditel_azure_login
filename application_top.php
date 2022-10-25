@@ -1,6 +1,6 @@
 <?php
 
-if ($_GET['module'] !== 'users/login') return;
+if ($_GET['REQUEST_URI'] !== '/index.php?module=users/login') return;
 
 require('plugins/azure_login/classes/azure_login.php');
 
