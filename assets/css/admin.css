@@ -8,6 +8,11 @@
     url("../fonts/password/password.svg#Password") format("svg");
 }
 
+[data-if-enabled],
+[data-if-allow_signup] {
+  display: none;
+}
+
 .c-pointer {
   cursor: pointer;
 }

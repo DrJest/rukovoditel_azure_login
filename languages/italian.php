@@ -24,3 +24,5 @@ define('TEXT_PLUGIN_AZURE_LOGIN_SAVE_SUCCESS', 'Impostazioni salvate');
 define('TEXT_PLUGIN_AZURE_LOGIN_SAVE_ERROR', 'Si è verificato un errore');
 define('TEXT_PLUGIN_AZURE_LOGIN_CREDENTIALS', 'Accedi con utente e password');
 define('TEXT_PLUGIN_AZURE_LOGIN_ERROR', 'Si è verificato un errore');
+define('TEXT_PLUGIN_AZURE_LOGIN_NO_SIGNUP', 'Questo sito non consente la registrazione');
+define('TEXT_PLUGIN_AZURE_LOGIN_COPIED', 'Copiato negli appunti');

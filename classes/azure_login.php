@@ -64,7 +64,7 @@ class azure_login
     if (self::get_settings()->allow_signup) {
       return self::register($claims);
     }
-    $alerts->add(TEXT_PLUGIN_AZURE_LOGIN_ERROR, 'error');
+    $alerts->add(TEXT_PLUGIN_AZURE_LOGIN_NO_SIGNUP, 'error');
     return redirect_to('users/login');
   }
 

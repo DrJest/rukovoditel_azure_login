@@ -21,6 +21,7 @@ try {
   $data = $oidc->getVerifiedClaims();
   azure_login::login($data);
 } catch (Exception $e) {
+  $alerts->add(TEXT_PLUGIN_AZURE_LOGIN_ERROR, 'error');
   return redirect_to('/');
 }
 
