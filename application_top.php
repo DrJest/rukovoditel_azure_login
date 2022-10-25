@@ -1,5 +1,7 @@
 <?php
 
+if ($_SERVER['REQUEST_URI'] !== '/index.php?module=users/login') return;
+
 require('plugins/azure_login/classes/azure_login.php');
 
 $settings = azure_login::get_settings();
@@ -17,11 +19,11 @@ if (!$settings->enabled) return;
 
   <?php
   if ($settings->hide_default > 0) {
-  ?>
-  #login_form,
+  ?>#login_form,
   .forget-password {
     display: none;
   }
+
   <?php
   }
   ?>
