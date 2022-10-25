@@ -1,0 +1,15 @@
+{
+    "name": "drjest/rukovoditel_azure_login",
+    "description": "Rukovoditel Plugin to Enable Access with Azure Active Directory",
+    "type": "library",
+    "require": {
+        "jumbojett/openid-connect-php": "^0.9.10"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Simone Albano",
+            "email": "simone@drjest.dev"
+        }
+    ]
+}

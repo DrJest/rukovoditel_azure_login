@@ -1,0 +1,17 @@
+@font-face {
+  font-family: "Password";
+  src: url("../fonts/password/password.eot");
+  src: url("../fonts/password/password.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/password/password.woff2") format("woff2"),
+    url("../fonts/password/password.woff") format("woff"),
+    url("../fonts/password/password.ttf") format("truetype"),
+    url("../fonts/password/password.svg#Password") format("svg");
+}
+
+.c-pointer {
+  cursor: pointer;
+}
+
+.content-hidden {
+  font-family: 'Password';
+}
