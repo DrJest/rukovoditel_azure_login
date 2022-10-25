@@ -26,5 +26,5 @@ PR are welcome!
 Also someone should probably translate this plugin in English and other languages
 
 
-### Licensing
+## Licensing
 As Rukovoditel, this plugin is released under GNU GPLv2 License.
