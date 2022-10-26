@@ -1,8 +1,8 @@
 <?php
 
-if ($_SERVER['REQUEST_URI'] !== '/index.php?module=users/login') return;
-
 require('plugins/azure_login/classes/azure_login.php');
+
+if ($_SERVER['REQUEST_URI'] !== '/index.php?module=users/login') return;
 
 $settings = azure_login::get_settings();
 
